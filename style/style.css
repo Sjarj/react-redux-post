@@ -1,0 +1,53 @@
+.default_margin_top{
+    margin-top:30px;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  
+ transform: translate(-1000%);
+ transition: transform 3000ms ease-out;
+}
+
+
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.button_add
+{
+    margin-top: 18%;
+    margin-left:86%;
+    position:fixed;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 50%;
+  outline: 0px !important /* Pas de carré apres clic*/
+}
+
+.button_space{
+  padding-right:30px;
+}

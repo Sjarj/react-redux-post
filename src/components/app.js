@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import PostList from '../containers/post-list'
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>ReactRedux-Starter : Ca marche !</div>
-    );
-  }
+class App extends Component {
+    render () {
+        return (
+            <div>
+                {this.props.children}
+            </div>
+        )
+    }
 }
+
+export default App
