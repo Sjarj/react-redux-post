@@ -1,10 +1,16 @@
 # ReactReduxPosts
 	Tu as git ?
+
+
 	> git clone git@github.com:RobinLebhar/ReactReduxPosts.git
-	Sinon télécharge le zip ici :
+
+	Sinon 
+	
+	Télécharge le zip ici : https:github.com/RobinLebhar/ReactReduxPosts/archive/master.zip
 	
 	
-	puis 
+	Dans tous les cas :
+	
 	> cd ReactReduxPosts
 	> npm install
 	> npm start
