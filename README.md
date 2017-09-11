@@ -6,13 +6,12 @@
 > git clone git@github.com:RobinLebhar/ReactReduxPosts.git
 
 ```
-
-### Sinon ###
+### Sinon 
 
 Télécharge le zip ici : https:github.com/RobinLebhar/ReactReduxPosts/archive/master.zip
 	
 	
-### Demarrer le projet : ### ( port 8080 )
+### Demarrer le projet : ( port 8080 )
 ```
 	> cd ReactReduxPosts
 	> npm install
@@ -21,7 +20,7 @@ Télécharge le zip ici : https:github.com/RobinLebhar/ReactReduxPosts/archive/m
 
 Dans un autre terminal 
 
-### Demarrer l'API : ### ( port 3000)
+### Demarrer l'API :  ( port 3000)
 ```
  > npm install json-server
  > json-server --watch fillDB.js
